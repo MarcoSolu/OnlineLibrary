@@ -13,7 +13,7 @@ async function checkInfo (book, card, btn) {
                 description = description.value
             }
 
-            let infoDiv = createElem('p', 'info', description);
+            let infoDiv = createElem('div', 'info', description);
             infoDiv.style.display = 'none';
             card.append(infoDiv);
 

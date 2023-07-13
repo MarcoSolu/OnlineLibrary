@@ -12,7 +12,7 @@ function checkBooks(books, content) {
         let coverImg = `https://covers.openlibrary.org/b/id/${cover_id}-M.jpg`;
         img.setAttribute('src', coverImg);
         card.appendChild(img);
-        img.classList.add('img-style');
+        img.classList.add('book-cover');
 
 
 

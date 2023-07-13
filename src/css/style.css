@@ -9,6 +9,7 @@ body {
     padding: 0;
     min-height: 100vh;
     background-image: url('../img/library.jpg');
+    font-family: 'Roboto', 'sans-serif';
 }
 
 #header-div {
@@ -24,7 +25,6 @@ body {
 }
 
 #main-div {
-    height: 20vh;
     border: none;
     border-radius: 20px;
     background-color: bisque;
@@ -47,7 +47,6 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto', 'sans-serif';
     text-transform: uppercase;
 }
 
@@ -68,16 +67,18 @@ input:focus {
 #card {
     background-color: antiquewhite;
     border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 200px;
+    height: 100%;
 }
 
 #title {
-    font-family: 'Roboto';
     font-style: italic;
+    margin-top: 5px;
 }
 
 #author {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -87,5 +88,30 @@ input:focus {
 }
 
 #info {
-    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+.col {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#error {
+    z-index: 500;
+    background-color: black;
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 15px;
+    top: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.book-cover {
+    width: 150px;
 }
